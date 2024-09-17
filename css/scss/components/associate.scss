@@ -1,0 +1,32 @@
+.associate {
+  margin: 65px 0 0 0;
+}
+
+.associate__external-link {
+  color: inherit;
+
+  &:hover {
+    color: $color-highlight;
+  }
+}
+
+.associate__external-links-list {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.associate__external-links-list__item {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.associate__name {
+  font: bold 20px/1.5em $font-face-sans;
+  margin: 0;
+}
+
+.associate__role {
+  font: 20px/1.5em $font-face-serif;
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.trading-info__text {
+  color: #999999;
+  font: 18px/1.5em $font-face-serif;
+  margin: 120px 0 20px desktop-width((1 1) of 12);
+  width: desktop-width(7 of 12);
+
+  @media (max-width: 768px) {
+    width: desktop-width(10 of 12);
+  }
+}

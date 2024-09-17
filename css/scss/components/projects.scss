@@ -1,0 +1,25 @@
+.projects__heading {
+  @include section-heading;
+}
+
+.projects__projects-layout {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: desktop-width(10 of 12);
+}
+
+.projects__projects-layout__column {
+  float: left;
+  width: desktop-width(4 of 10);
+
+  &:nth-of-type(1n) { margin: 0 desktop-width((1 2) of 10) 0 0; }
+  &:nth-of-type(2n) { margin: 0 desktop-width((1 1) of 10) 0 0; }
+
+  @media (max-width: 960px) {
+    width: desktop-width(10 of 10);
+
+    &:nth-of-type(1n) { margin: 0; }
+    &:nth-of-type(2n) { margin: 0; }
+  }
+}

@@ -1,0 +1,670 @@
+.about__hr {
+  border: 0;
+  border-top: 5px solid #000000;
+  margin: 80px auto 0 auto;
+  width: 85.95989%; }
+
+.about__tagline {
+  font: bold 80px/1em "Avenir Next", sans-serif;
+  margin: 80px 0 0 8.45272%;
+  width: 66.18911%; }
+  @media (max-width: 960px) {
+    .about__tagline {
+      font: bold 40px/1.5em "Avenir Next", sans-serif;
+      margin: 80px auto 0 auto;
+      width: 83.09456%; } }
+
+.about__text {
+  font: 30px/1.5em "Georgia", sans-serif;
+  margin: 40px 0 0 8.45272%;
+  width: 61.96275%; }
+  .about__text a {
+    border-bottom: 2px dotted #7713fe;
+    color: #7713fe;
+    text-decoration: none; }
+  @media (max-width: 960px) {
+    .about__text {
+      font: 30px/1.5em "Georgia", sans-serif;
+      margin: 40px auto 0 auto;
+      width: 83.09456%; } }
+
+.associate {
+  margin: 65px 0 0 0; }
+
+.associate__external-link {
+  color: inherit; }
+  .associate__external-link:hover {
+    color: #7713fe; }
+
+.associate__external-links-list {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none; }
+
+.associate__external-links-list__item {
+  display: inline-block;
+  margin: 0 10px 0 0; }
+
+.associate__name {
+  font: bold 20px/1.5em "Avenir Next", sans-serif;
+  margin: 0; }
+
+.associate__role {
+  font: 20px/1.5em "Georgia", sans-serif;
+  margin: 0; }
+
+.clients__heading {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 5px solid #000000;
+  font: bold 40px/1em "Avenir Next", sans-serif;
+  margin: 80px auto 0 auto;
+  padding: 0 1.43266% 35px 1.43266%;
+  width: 85.95989%; }
+  @media (max-width: 960px) {
+    .clients__heading {
+      font: bold 40px/1.5em "Avenir Next", sans-serif; } }
+
+.clients__image {
+  display: block;
+  max-width: 100%;
+  width: 200px; }
+  @media (max-width: 960px) {
+    .clients__image {
+      margin: 0 auto; } }
+
+.clients__image--bestival {
+  position: relative;
+  top: -10px; }
+
+.clients__list {
+  list-style: none;
+  margin: -40px auto 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: 83.09456%; }
+
+.clients__list__item {
+  display: inline-block;
+  margin: 120px 1.72414% 0 0;
+  vertical-align: middle;
+  width: 28.7931%; }
+  @media (max-width: 960px) {
+    .clients__list__item {
+      width: 100%; } }
+
+.contact__54b {
+  color: inherit;
+  display: inline-block;
+  font: 18px/1.5em "Georgia", sans-serif;
+  margin: 20px 0 0 0;
+  text-decoration: none; }
+  .contact__54b span {
+    border-bottom: 1px dotted #7713fe;
+    color: #7713fe; }
+
+.contact__address {
+  font: 18px/1.5em "Georgia", sans-serif;
+  margin: 40px 0 0 0; }
+
+.contact__address-link {
+  border-bottom: 1px dotted #7713fe;
+  color: #7713fe;
+  font: 18px/1.5em "Georgia", sans-serif;
+  margin: 0;
+  text-decoration: none; }
+
+.contact__heading {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 5px solid #000000;
+  font: bold 40px/1em "Avenir Next", sans-serif;
+  margin: 80px auto 0 auto;
+  padding: 0 1.43266% 35px 1.43266%;
+  width: 85.95989%; }
+  @media (max-width: 960px) {
+    .contact__heading {
+      font: bold 40px/1.5em "Avenir Next", sans-serif; } }
+
+.contact__email-link {
+  border-bottom: 2px dotted #7713fe;
+  color: #7713fe;
+  font: 30px/1.5em "Georgia", sans-serif;
+  text-decoration: none; }
+  @media (max-width: 768px) {
+    .contact__email-link {
+      font: 20px/1.5em "Georgia", sans-serif; } }
+
+.contact__external-link {
+  color: inherit;
+  display: inline-block;
+  margin: 30px 10px 0 0; }
+  .contact__external-link:hover {
+    color: #7713fe; }
+
+.contact__layout {
+  overflow: hidden; }
+
+.contact__layout__column--left {
+  float: left;
+  margin: 0 0 0 8.45272%;
+  width: 32.37822%; }
+  @media (max-width: 1050px) {
+    .contact__layout__column--left {
+      width: 83.09456%; } }
+
+.contact__layout__column--right {
+  float: right;
+  margin: 0 8.45272% 0 0;
+  width: 49.28367%; }
+  @media (max-width: 1050px) {
+    .contact__layout__column--right {
+      width: 83.09456%; } }
+
+.contact__map-image {
+  display: block;
+  margin: 80px 0 0 0;
+  max-width: 100%; }
+
+.contact__phone-link {
+  color: inherit;
+  display: inline-block;
+  font: bold 20px/1.5em "Avenir Next", sans-serif;
+  margin: 80px 0 0 0;
+  text-decoration: none; }
+  .contact__phone-link:hover {
+    color: #7713fe; }
+
+.hero__body {
+  margin: 40px 0 0 8.45272%;
+  width: 49.28367%; }
+  @media (max-width: 960px) {
+    .hero__body {
+      margin: 40px auto 0 auto;
+      width: 83.09456%; } }
+
+.hero__header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 5px solid #000000;
+  overflow: hidden;
+  margin: 35px auto 0 auto;
+  padding: 0 1.43266% 35px 1.43266%;
+  width: 85.95989%; }
+
+.hero__heading {
+  /*background-image: url('../img/picofme.png');*/
+  background-size: 100% 100%;
+  float: left;
+  height: 150px;
+  margin: 0;
+  overflow: hidden;
+  text-indent: -9999em;
+  width: 150px; }
+
+
+.hero__intro {
+  font: 30px/1.5em "Georgia", sans-serif; }
+  @media (max-width: 960px) {
+    .hero__intro {
+      font: 30px/1.5em "Georgia", sans-serif; } }
+
+.hero__subheading {
+  font: bold 30px/1.5em "Avenir Next", sans-serif;
+  margin: 0; }
+
+.hero__text {
+  font: 18px/1.5em "Georgia", sans-serif; }
+
+.invisible {
+  height: 1px;
+  left: -9999em;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px; }
+
+.layout {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  margin: 0; }
+
+.project {
+  margin: 80px 0 0 0; }
+
+.project__description {
+  font: 18px/1.5em "Georgia", sans-serif;
+  margin: 20px 0 0 0; }
+
+.project__link {
+  color: inherit;
+  display: block;
+  font: italic 18px/1.5em "Georgia", sans-serif;
+  margin: 20px 0 0 0;
+  text-decoration: none; }
+  .project__link:hover {
+    color: #7713fe; }
+  .projects__projects-layout__column:nth-of-type(2) .project__link {
+    position: absolute;
+    bottom: 0;
+    width: 38.96552%; }
+    @media (max-width: 960px) {
+      .projects__projects-layout__column:nth-of-type(2) .project__link {
+        position: static;
+        width: auto; } }
+
+.project__link__box {
+  border: 1px solid #000000;
+  display: block;
+  font: bold 20px/1.5em "Avenir Next", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0.75em;
+  text-align: center; }
+  @media (max-width: 960px) {
+    .project__link__box {
+      font: bold 15px/1.5em "Avenir Next", sans-serif; } }
+
+.project__name {
+  font: bold 30px/1.5em "Avenir Next", sans-serif;
+  margin: 0; }
+
+.projects__heading {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 5px solid #000000;
+  font: bold 40px/1em "Avenir Next", sans-serif;
+  margin: 80px auto 0 auto;
+  padding: 0 1.43266% 35px 1.43266%;
+  width: 85.95989%; }
+  @media (max-width: 960px) {
+    .projects__heading {
+      font: bold 40px/1.5em "Avenir Next", sans-serif; } }
+
+.projects__projects-layout {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 83.09456%; }
+
+.projects__projects-layout__column {
+  float: left;
+  width: 38.96552%; }
+  .projects__projects-layout__column:nth-of-type(1n) {
+    margin: 0 11.89655% 0 0; }
+  .projects__projects-layout__column:nth-of-type(2n) {
+    margin: 0 10.17241% 0 0; }
+  @media (max-width: 960px) {
+    .projects__projects-layout__column {
+      width: 100%; }
+      .projects__projects-layout__column:nth-of-type(1n) {
+        margin: 0; }
+      .projects__projects-layout__column:nth-of-type(2n) {
+        margin: 0; } }
+
+.service {
+  margin: 80px 0 0 0;
+  text-align: center; }
+
+.service__description {
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -ms-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  margin: 80px 0 0 0;
+  opacity: 0.5;
+  font: bold 18px/1.5em "Georgia", sans-serif; }
+  .what-we-do__services-layout__column:hover .service__description {
+    opacity: 10.5; }
+
+.service__heading {
+  font-size: 0;
+  line-height: 0;
+  padding: 100% 0 0 0;
+  position: relative; }
+
+.service__heading__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0; }
+  .service__heading__content:before {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+    background: #cccccc;
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    vertical-align: middle; }
+    .what-we-do__services-layout__column:hover .service__heading__content:before {
+      -webkit-transform: scale(1.25, 1.25);
+      -moz-transform: scale(1.25, 1.25);
+      -ms-transform: scale(1.25, 1.25);
+      -o-transform: scale(1.25, 1.25);
+      transform: scale(1.25, 1.25);
+      background: #7713fe;
+      opacity: 1;
+      z-index: -1; }
+  .service__heading__content:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+.service__heading__content__text {
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+  display: inline-block;
+  font: bold 30px/1.5em "Georgia", sans-serif;
+  position: relative;
+  vertical-align: middle;
+  z-index: 1; }
+  .what-we-do__services-layout__column:hover .service__heading__content__text {
+    color: #ffffff; }
+
+.service__list {
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -ms-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  list-style: none;
+  margin: 20px 0 0 0;
+  opacity: 0.5;
+  padding: 0; }
+  .what-we-do__services-layout__column:hover .service__list {
+    opacity: 1; }
+
+.service__list__item {
+  font: 18px/1.5em "Georgia", sans-serif; }
+
+.trading-info__text {
+  color: #999999;
+  font: 18px/1.5em "Georgia", sans-serif;
+  margin: 120px 0 20px 8.45272%;
+  width: 57.73639%; }
+  @media (max-width: 768px) {
+    .trading-info__text {
+      width: 83.09456%; } }
+
+.what-we-do__heading {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 5px solid #000000;
+  font: bold 40px/1em "Avenir Next", sans-serif;
+  margin: 80px auto 0 auto;
+  padding: 0 1.43266% 35px 1.43266%;
+  width: 85.95989%; }
+  @media (max-width: 960px) {
+    .what-we-do__heading {
+      font: bold 40px/1.5em "Avenir Next", sans-serif; } }
+
+.what-we-do__services-layout {
+  margin: 0 auto 0;
+  width: 83.09456%; }
+  .what-we-do__services-layout:after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.what-we-do__services-layout__column {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 0.86207%;
+  width: 33.3333%; }
+  @media (max-width: 768px) {
+    .what-we-do__services-layout__column {
+      width: 100%; } }
+
+.what-we-do__services-layout__row {
+  margin: 0 -0.86207%; }
+
+.who-we-are__heading {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 5px solid #000000;
+  font: bold 40px/1em "Avenir Next", sans-serif;
+  margin: 80px auto 0 auto;
+  padding: 0 1.43266% 35px 1.43266%;
+  width: 85.95989%; }
+  @media (max-width: 960px) {
+    .who-we-are__heading {
+      font: bold 40px/1.5em "Avenir Next", sans-serif; } }
+
+.who-we-are__list {
+  list-style: none;
+  margin: 15px auto 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: 83.09456%; }
+
+.who-we-are__list__item {
+  float: left;
+  margin: 0 0 0 1.72414%;
+  width: 18.62069%; }
+  .who-we-are__list__item:nth-of-type(5n+1) {
+    clear: left;
+    margin: 0; }
+  @media (max-width: 1280px) {
+    .who-we-are__list__item {
+      width: 32.18357%; }
+      .who-we-are__list__item:nth-of-type(5n+1) {
+        clear: none;
+        margin: 0 0 0 1.72414%; }
+      .who-we-are__list__item:nth-of-type(3n+1) {
+        clear: left;
+        margin: 0; } }
+  @media (max-width: 960px) {
+    .who-we-are__list__item {
+      width: 49.13793%; }
+      .who-we-are__list__item:nth-of-type(3n+1) {
+        clear: none;
+        margin: 0 0 0 1.72414%; }
+      .who-we-are__list__item:nth-of-type(2n+1) {
+        clear: left;
+        margin: 0; } }
+
+.with-links-form {
+  margin: 20px 0 0 0;
+  position: relative; }
+
+.with-links-form__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 0;
+  display: block;
+  font: italic 18px/1.5em "Georgia", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0.75em 90px 0.75em 0.75em;
+  width: 100%; }
+
+  a {
+    color:#000000; 
+    text-decoration:none;
+}
+
+a:hover {
+
+  text-decoration:none;
+    cursor:pointer;  
+}
+
+  .button__click {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+      color:#000000; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 0;
+    display: block;
+    cursor: pointer;
+    font: bold 18px/1.5em "Avenir Next", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0.75em;
+    width: 100%;}
+    .button__click:hover {
+    color: #7713fe; }
+
+.with-links-form__label {
+  display: block;
+  font: italic 18px/1.5em "Georgia", sans-serif; }
+
+.with-links-form__submit {
+  background: 0;
+  border: 0;
+  bottom: 0;
+  cursor: pointer;
+  font: bold 18px/1.5em "Avenir Next", sans-serif;
+  margin: 0;
+  padding: 0.75em;
+  position: absolute;
+  right: 0; }
+  .with-links-form__submit:hover {
+    color: #7713fe; }
+
+/*# sourceMappingURL=application.css.map */
+
+ul.status li {
+  margin: 138px 30px 0;
+  font-size: 1.2em;
+  color: #8d9aa5;
+  position: relative;
+  padding-left: 125px;
+}
+
+ul.status li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: bold .2em;
+  text-align: center;
+  width: 120px;
+}
+
+ul.status .in {
+  color: #5A6772;
+}
+
+ul.status .in:before {
+  content: "Available";
+  background-color: #5fcf80;
+}
+
+ul.status .out {
+  color: #A7B4BF;
+}
+
+ul.status .out:before {
+  content: "Unavailable";
+  background-color: #ed5a5a;
+}
+
+
+.social-share-btns li.facebook { background-color: #3B5998; }
+.social-share-btns li.twitter { background-color: #4099FF; }
+.social-share-btns li.googleplus { background-color: #d34836; }
+.social-share-btns li.linkedin { background-color: #007bb6; }
+.social-share-btns li.pinterest { background-color: #cc2127; }
+.social-share-btns li.email { background-color: #9f9f9f; }
+.social-share-btns li.whatsapp { background-color: #60b82d; }
+.social-share-btns li.skype { background-color: #00AFF0; }
+
+.social-share-btns {
+	position: relative;
+	box-sizing: border-box;
+	height: 40px;
+  margin: 20px 0 0 5.5%;
+}
+
+.social-share-btns li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: 13%; /* 100 divided by the number of buttons */
+}
+
+.social-share-btns li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding-top: 9px;
+
+	transition: font-size 0.3s, padding-top 0.3s;
+}
+
+.social-share-btns li a:hover {
+	font-size: 24px;
+	padding-top: 5px;
+}
+
+
+.social-share-btns .share-text {
+	opacity: 0;
+	position: absolute;
+	clip: rect(1px 1px 1px 1px); /* syntax for IE6 & IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}

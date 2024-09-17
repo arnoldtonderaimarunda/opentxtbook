@@ -1,0 +1,33 @@
+.who-we-are__heading {
+  @include section-heading;
+}
+
+.who-we-are__list {
+  list-style: none;
+  margin: 15px auto 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: desktop-width(10 of 12);
+}
+
+.who-we-are__list__item {
+  float: left;
+  margin: 0 0 0 desktop-width((0 1) of 10);
+  width: desktop-width(2 of 10);
+
+  &:nth-of-type(5n+1) { clear: left; margin: 0; }
+
+  @media (max-width: 1280px) {
+    width: desktop-width(3.3333 of 10);
+
+    &:nth-of-type(5n+1) { clear: none; margin: 0 0 0 desktop-width((0 1) of 10); }
+    &:nth-of-type(3n+1) { clear: left; margin: 0; }
+  }
+
+  @media (max-width: 960px) {
+    width: desktop-width(5 of 10);
+
+    &:nth-of-type(3n+1) { clear: none; margin: 0 0 0 desktop-width((0 1) of 10); }
+    &:nth-of-type(2n+1) { clear: left; margin: 0; }
+  }
+}

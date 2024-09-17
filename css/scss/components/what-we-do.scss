@@ -1,0 +1,30 @@
+.what-we-do__heading {
+  @include section-heading;
+}
+
+.what-we-do__services-layout {
+  margin: 0 auto 0;
+  width: desktop-width(10 of 12);
+
+  &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+.what-we-do__services-layout__column {
+  @include prefix(box-sizing, border-box);
+
+  float: left;
+  padding: 0 desktop-width((0 0.5) of 10);
+  width: 33.3333%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.what-we-do__services-layout__row {
+  margin: 0 -#{desktop-width((0 0.5) of 10)};
+}

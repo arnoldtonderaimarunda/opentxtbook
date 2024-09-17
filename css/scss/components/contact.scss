@@ -1,0 +1,92 @@
+.contact__54b {
+  color: inherit;
+  display: inline-block;
+  font: 18px/1.5em $font-face-serif;
+  margin: 20px 0 0 0;
+  text-decoration: none;
+
+  span {
+    border-bottom: 1px dotted $color-highlight;
+    color: $color-highlight;
+  }
+}
+
+.contact__address {
+  font: 18px/1.5em $font-face-serif;
+  margin: 40px 0 0 0;
+}
+
+.contact__address-link {
+  border-bottom: 1px dotted $color-highlight;
+  color: $color-highlight;
+  font: 18px/1.5em $font-face-serif;
+  margin: 0;
+  text-decoration: none;
+}
+
+.contact__heading {
+  @include section-heading;
+}
+
+.contact__email-link {
+  border-bottom: 2px dotted $color-highlight;
+  color: $color-highlight;
+  font: 30px/1.5em $font-face-serif;
+  text-decoration: none;
+
+  @media (max-width: 768px) {
+    font: 20px/1.5em $font-face-serif;
+  }
+}
+
+.contact__external-link {
+  color: inherit;
+  display: inline-block;
+  margin: 30px 10px 0 0;
+
+  &:hover {
+    color: $color-highlight;
+  }
+}
+
+.contact__layout {
+  overflow: hidden;
+}
+
+.contact__layout__column--left {
+  float: left;
+  margin: 0 0 0 desktop-width((1 1) of 12);
+  width: desktop-width(4 of 12);
+
+  @media (max-width: 1050px) {
+    width: desktop-width(10 of 12);
+  }
+}
+
+.contact__layout__column--right {
+  float: right;
+  margin: 0 desktop-width((1 1) of 12) 0 0;
+  width: desktop-width(6 of 12);
+
+  @media (max-width: 1050px) {
+    width: desktop-width(10 of 12);
+  }
+}
+
+.contact__map-image {
+  display: block;
+  margin: 80px 0 0 0;
+  max-width: 100%;
+}
+
+.contact__phone-link {
+  color: inherit;
+  display: inline-block;
+  font: bold 20px/1.5em $font-face-sans;
+  margin: 80px 0 0 0;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-highlight;
+  }
+}

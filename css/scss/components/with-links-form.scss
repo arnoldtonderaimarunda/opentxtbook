@@ -1,0 +1,38 @@
+.with-links-form {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.with-links-form__input {
+  @include prefix(appearance, none);
+  @include prefix(box-sizing, border-box);
+
+  border: 1px solid #000000;
+  border-radius: 0;
+  display: block;
+  font: italic 18px/1.5em $font-face-serif;
+  margin: 10px 0 0 0;
+  padding: 0.75em 90px 0.75em 0.75em;
+  width: 100%;
+}
+
+.with-links-form__label {
+  display: block;
+  font: italic 18px/1.5em $font-face-serif;
+}
+
+.with-links-form__submit {
+  background: 0;
+  border: 0;
+  bottom: 0;
+  cursor: pointer;
+  font: bold 18px/1.5em $font-face-sans;
+  margin: 0;
+  padding: 0.75em;
+  position: absolute;
+  right: 0;
+
+  &:hover {
+    color: $color-highlight;
+  }
+}

@@ -1,0 +1,86 @@
+$color-highlight: #7713fe;
+$font-face-sans: "Avenir Next", sans-serif;
+$font-face-serif: "Georgia", sans-serif;
+
+@function desktop-width($list) {
+  @return grid-width($list, (
+    'column-count': 12,
+    'column-width': 98px,
+    'gutter-width': 20px
+  ));
+}
+
+@function grid-width($list, $options) {
+  $column-count: map-get($options, 'column-count');
+  $column-width: map-get($options, 'column-width');
+  $gutter-width: map-get($options, 'gutter-width');
+
+  $list: if(try-nth($list, 2) == of, $list, $list of $column-count);
+
+  $inner-columns: inner-columns-from($list);
+  $inner-gutters: inner-gutters-from($list);
+  $outer-columns: outer-columns-from($list);
+  $outer-gutters: outer-gutters-from($list);
+
+  $inner-width: calculate-width($inner-columns, $inner-gutters, $column-width, $gutter-width);
+  $outer-width: calculate-width($outer-columns, $outer-gutters, $column-width, $gutter-width);
+
+  @return percentage($inner-width / $outer-width);
+}
+
+@function try-nth($list, $n, $fallback: null) {
+  @return if(length($list) >= $n, nth($list, $n), $fallback);
+}
+
+@function calculate-width($columns, $gutters, $column-width, $gutter-width) {
+  $column-width: $column-width;
+  $gutter-width: $gutter-width;
+
+  @return ($columns * $column-width) + ($gutters * $gutter-width);
+}
+
+@function inner-columns-from($list) {
+  @return columns-from(nth($list, 1));
+}
+
+@function inner-gutters-from($list) {
+  @return gutters-from(nth($list, 1));
+}
+
+@function outer-columns-from($list) {
+  @return columns-from(nth($list, 3));
+}
+
+@function outer-gutters-from($list) {
+  @return gutters-from(nth($list, 3));
+}
+
+@function columns-from($value) {
+  @return if(type-of($value) == number, $value, nth($value, 1));
+}
+
+@function gutters-from($value) {
+  @return if(type-of($value) == number, $value - 1, nth($value, 2));
+}
+
+@mixin prefix($property, $values...) {
+  -webkit-#{$property}: #{$values};
+  -moz-#{$property}: #{$values};
+  -ms-#{$property}: #{$values};
+  -o-#{$property}: #{$values};
+  #{$property}: #{$values};
+}
+
+@mixin section-heading {
+  @include prefix(box-sizing, border-box);
+
+  border-bottom: 5px solid #000000;
+  font: bold 40px/1em $font-face-sans;
+  margin: 80px auto 0 auto;
+  padding: 0 desktop-width((0 1) of 12) 35px desktop-width((0 1) of 12);
+  width: desktop-width((10 11) of 12);
+
+  @media (max-width: 960px) {
+    font: bold 40px/1.5em $font-face-sans;
+  }
+}
