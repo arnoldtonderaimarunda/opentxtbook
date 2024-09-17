@@ -20,9 +20,20 @@ body {
 #title, #title .label, #content, .tools {
     border-radius: 2px;
 }
+.arts {
+    background: #e6e6c6 url("../img/arts_title_bg.jpg") repeat -1.1em -1.1em;
+}
+.maths {
+    background: #e6e6c6 url("../img/maths_title_bg.jpg") repeat -1.1em -1.1em;
+}
+.sciences {
+    background: #e6e6c6 url("../img/sciences_title_bg.jpg") repeat -1.1em -1.1em;
+}
+.societies {
+    background: #e6e6c6 url("../img/societies_title_bg.jpg") repeat -1.1em -1.1em;
+}
 #title {
     max-width: 28em;
-    background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
     border: 1.1em solid rgba(0,0,0,0.25);

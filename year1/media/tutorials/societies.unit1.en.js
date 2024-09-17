@@ -30,28 +30,45 @@ undum.game.slideUpSpeed = 500
 undum.game.situations = {
     start: new undum.SimpleSituation(
         "<h1>Primary Goals</h1>\
-        <p>This unit focuses on the scientific concept of using pushes and pulls to put objects in\
-	motion, increase or decrease the object’s speed, change direction, or stop motion.</p>\
+	<h3>The Big Idea</h3><h4>Our world is a place with diverse physical and cultural geography</h4>\
+        <p>We live on the planet Earth. Earth is made up of land and water. The water includes large bodies of\
+	salt water called oceans, as well as freshwater lakes and rivers of various sizes. The land is divided into\
+	seven large areas called continents. These continents contain many different landforms, including tall\
+	mountains with snowy peaks, dry deserts, and deep canyons.</p>\
 	\
-	<p>Students are familiar with various games that involve the movement of objects, such as a ball. They\
-	may not make the connection that the motion of a ball is affected by the strength and direction of\
-	pushes and pulls on the ball. Students will explore this concept with both visible and invisible pushes\
-	and pulls, contact and noncontact forces. They will recognize that motion is affected by the strength\
-	and direction of pushes and pulls, the characteristics of objects, and the surface on which objects are\
-	moved. Students will learn how motion changes and develop an understanding that pushes and pulls\
-	of all different types are the cause of all changes in movement.</p>\
+	<p>Plants grow all over Earth’s land. They might make up a deep forest of tall trees, a thick steamy\
+	rainforest full of trees and vines, or fields and plains of tall waving grass. Some parts of Earth are so dry\
+	that sand covers the ground and only a few plants can survive</p>\
 	\
-	<p>In this unit, students investigate what causes changes in motion by exploring pushes and pulls.\
-	Students will then use prior knowledge and information gained from their observations during various\
-	tests to design a miniature golf course. Students explore concepts that include the following:\
-	<ul><li>Pushes and pulls can have different strengths and directions.</li>\
-	<li>Pushing and pulling on an object can change the speed or direction of its motion and can start\
-	or stop it.</li></ul></p>\
+	<p>Animals and plants depend on the land and water to live. Different animals and plants can be found in\
+	different areas of Earth, depending on the kind of land and the weather in those areas. In some places,\
+	plants and animals are endangered because of loss of habitat, hunting, or climate change.</p>\
         \
-        <p>Engineers and engineering designers use knowledge of forces and motion as they develop solutions\
-	to problems and make things that are useful to people. This series of lessons incorporates learning\
-	goals that support the principles and practices of engineering design, such as defining problems and\
-	evaluating and optimizing possible solutions.</p>\
+        <p>Weather is different all over Earth, and it affects the life of plants, animals, and humans. Very far north\
+	and very far south on Earth, the weather is always cold and the ocean stays frozen all year long. In the\
+	middle sections of Earth, where the sun’s rays are the most direct, the weather rarely gets cold, but it is\
+	often wet.</p>\
+	\
+        <p>Just as there are many different kinds of plants and animals, there are also many different kinds of\
+	people in our world. People have different beliefs and different ways of celebrating important events.\
+	They eat different foods and wear different clothes. At the same time, all people share one important\
+	characteristic: they are human beings.</p>\
+	\
+        <p>One way to explore our world is to travel to different places. When people travel to different places,\
+	they often rely on maps for information. Maps can help you understand the geography of different\
+	parts of the world, which includes Earth’s most important physical and human features, and can help\
+	you get to places both near and far.</p>\
+	\
+	<h3>What the Students Need to Learn</h3><h4>Spatial Sense</h4>\
+	<ul><li>What maps and globes represent and how they are used.</li>\
+	<li>Rivers, lakes, and mountains: What they are and how they are represented on maps and globes.</li>\
+	<li>The location of the Oceans.</li>\
+	<li>The location of the North and South Poles.</li>\
+	<li>The meaning of some basic terms of spatial orientation necessary for working with maps</li></ul>\
+	\
+	<h4>An Overview of the Seven Continents</h4>\
+	<ul><li>The names and relative locations of the seven continents.</li>\
+	<li>Familiar associations with each continent, such as wildlife,landmarks, etc..</li></ul>\
 	\
         <p class='transient'><a href='hub'>continue...</a></p>"
     ),
@@ -70,7 +87,7 @@ undum.game.situations = {
             system.write($("#s_module1").html());
         },
         tags: ["module"],
-        optionText: "MODULE 1 - Pushes and Pulls",
+        optionText: "MODULE 1 - Where Do You Live?",
         displayOrder: 1
     }),
     module2: new undum.Situation({
@@ -79,7 +96,7 @@ undum.game.situations = {
             system.write($("#s_module2").html());
         },
         tags: ["module"],
-        optionText: "MODULE 2 - Pushing and Pulling",
+        optionText: "MODULE 2 - Finding Your Way Around",
         displayOrder: 2
     }),
    todo: new undum.SimpleSituation(
